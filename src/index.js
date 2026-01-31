@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Root GET route
 app.get('/', (req, res) => {
-  res.json('Welcome to the Express.js server!' );
+  res.json('Welcome to the Express.js server!');
 });
 
 // Start server and log URL
